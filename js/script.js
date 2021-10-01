@@ -6,7 +6,7 @@ let attractors = [];
 
 function setup() {
   createCanvas(600, 600);
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 50; i++) {
     let x = random(width);
     let y = random(height);
     let m = random(50, 150);
